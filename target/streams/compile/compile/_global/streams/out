@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 [0m[[0m[31merror[0m] [0m[0mC:\Users\juand\Documents\Proyecto-Final-POO\src\main\scala\TipoPasaje\Silver.scala:7:3: not found: value _id[0m
 [0m[[0m[31merror[0m] [0m[0m		_id = id;[0m
 [0m[[0m[31merror[0m] [0m[0m		^[0m
@@ -5,3 +6,17 @@
 [0m[[0m[31merror[0m] [0m[0m		_caracteristica = caracteristica;[0m
 [0m[[0m[31merror[0m] [0m[0m		^[0m
 [0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+=======
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\Pasajero\Pasajero.scala:5:7: class Pasajero needs to be abstract, since:[0m
+[0m[[0m[31merror[0m] [0m[0mit has 4 unimplemented members.[0m
+[0m[[0m[31merror[0m] [0m[0m/** As seen from class Pasajero, the missing signatures are as follows.[0m
+[0m[[0m[31merror[0m] [0m[0m *  For convenience, these are usable as stub implementations.[0m
+[0m[[0m[31merror[0m] [0m[0m */[0m
+[0m[[0m[31merror[0m] [0m[0m  def _correo_=(x$1: String): Unit = ???[0m
+[0m[[0m[31merror[0m] [0m[0m  def _id_=(x$1: String): Unit = ???[0m
+[0m[[0m[31merror[0m] [0m[0m  def _nombre_=(x$1: String): Unit = ???[0m
+[0m[[0m[31merror[0m] [0m[0m  def _pasajes_=(x$1: List[Int]): Unit = ???[0m
+[0m[[0m[31merror[0m] [0m[0mclass Pasajero extends ModuloPasajero{[0m
+[0m[[0m[31merror[0m] [0m[0m      ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m
+>>>>>>> Alvaro
