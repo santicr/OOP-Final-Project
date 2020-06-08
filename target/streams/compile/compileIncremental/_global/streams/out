@@ -1,1 +1,70 @@
-[0m[[0m[0mdebug[0m] [0m[0mNo changes[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
+[0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(C:\Users\juand\Documents\Proyecto-Final-POO\src\main\scala\ServicioEspecial\SillaRuedas.scala, C:\Users\juand\Documents\Proyecto-Final-POO\src\main\scala\ServicioEspecial\Niños.scala, C:\Users\juand\Documents\Proyecto-Final-POO\src\main\scala\ServicioEspecial\Mascotas.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(SillaRuedas, ServicioEspecial, Mascotas)[0m
+[0m[[0m[0mdebug[0m] [0m[0m[0m
+[0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(SillaRuedas, ServicioEspecial, Mascotas)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(C:\Users\juand\Documents\Proyecto-Final-POO\src\main\scala\ServicioEspecial\SillaRuedas.scala, C:\Users\juand\Documents\Proyecto-Final-POO\src\main\scala\ServicioEspecial\Niños.scala, C:\Users\juand\Documents\Proyecto-Final-POO\src\main\scala\ServicioEspecial\Mascotas.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: SillaRuedas, ServicioEspecial, Mascotas[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 3 Scala sources to C:\Users\juand\Documents\Proyecto-Final-POO\target\scala-2.12\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.3.5:compile for Scala 2.12.10[0m
+[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.3.5:compile for Scala 2.12.10[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 44d10c8b for Scala compiler version 2.12.10[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Program Files\Java\jre1.8.0_111\lib\resources.jar;C:\Program Files\Java\jre1.8.0_111\lib\rt.jar;C:\Program Files\Java\jre1.8.0_111\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_111\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_111\lib\jce.jar;C:\Program Files\Java\jre1.8.0_111\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_111\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_111\classes;C:\Users\juand\.sbt\boot\scala-2.12.10\lib\scala-library.jar[0m
+[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
+[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\juand\Documents\Proyecto-Final-POO\target\scala-2.12\classes[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.1597053 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mDone compiling.[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from SillaRuedas...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: SillaRuedas[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(SillaRuedas)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(SillaRuedas,ModifiedNames(changes = UsedName(SillaRuedas,[Default]), UsedName(SillaRuedas;init;,[Default]), UsedName(_caracteristica,[Default]), UsedName(_id,[Default]))) invalidates 1 classes due to The SillaRuedas has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(SillaRuedas,[Default]), UsedName(SillaRuedas;init;,[Default]), UsedName(_caracteristica,[Default]), UsedName(_id,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(SillaRuedas)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from ServicioEspecial...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: ServicioEspecial[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(ServicioEspecial)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(ServicioEspecial,ModifiedNames(changes = UsedName($asInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(isInstanceOf,[Default]), UsedName(toString,[Default]), UsedName(==,[Default]), UsedName(hashCode,[Default]), UsedName(ServicioEspecial,[Default]), UsedName(finalize,[Default]), UsedName(!=,[Default]), UsedName(asInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(equals,[Default]), UsedName($isInstanceOf,[Default]), UsedName(synchronized,[Default]), UsedName(ServicioEspecial;init;,[Default]), UsedName(ne,[Default]), UsedName(notifyAll,[Default]), UsedName(##,[Default]), UsedName(getClass,[Default]), UsedName(clone,[Default]), UsedName(notify,[Default]))) invalidates 1 classes due to The ServicioEspecial has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName($asInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(isInstanceOf,[Default]), UsedName(toString,[Default]), UsedName(==,[Default]), UsedName(hashCode,[Default]), UsedName(ServicioEspecial,[Default]), UsedName(finalize,[Default]), UsedName(!=,[Default]), UsedName(asInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(equals,[Default]), UsedName($isInstanceOf,[Default]), UsedName(synchronized,[Default]), UsedName(ServicioEspecial;init;,[Default]), UsedName(ne,[Default]), UsedName(notifyAll,[Default]), UsedName(##,[Default]), UsedName(getClass,[Default]), UsedName(clone,[Default]), UsedName(notify,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(ServicioEspecial)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Mascotas...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Mascotas[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Mascotas)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Mascotas,ModifiedNames(changes = UsedName(Mascotas,[Default]), UsedName(_caracteristica,[Default]), UsedName(Mascotas;init;,[Default]), UsedName(_id,[Default]))) invalidates 1 classes due to The Mascotas has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(Mascotas,[Default]), UsedName(_caracteristica,[Default]), UsedName(Mascotas;init;,[Default]), UsedName(_id,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(Mascotas)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Niños...[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Niños[0m
+[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Niños)[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Niños,ModifiedNames(changes = UsedName($asInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(isInstanceOf,[Default]), UsedName(toString,[Default]), UsedName(==,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(_id,[Default]), UsedName(_caracteristica,[Default]), UsedName(!=,[Default]), UsedName(asInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(equals,[Default]), UsedName($isInstanceOf,[Default]), UsedName(synchronized,[Default]), UsedName(ne,[Default]), UsedName(Niños,[Default]), UsedName(notifyAll,[Default]), UsedName(##,[Default]), UsedName(getClass,[Default]), UsedName(clone,[Default]), UsedName(Niños;init;,[Default]), UsedName(notify,[Default]))) invalidates 1 classes due to The Niños has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName($asInstanceOf,[Default]), UsedName(wait,[Default]), UsedName(isInstanceOf,[Default]), UsedName(toString,[Default]), UsedName(==,[Default]), UsedName(hashCode,[Default]), UsedName(finalize,[Default]), UsedName(_id,[Default]), UsedName(_caracteristica,[Default]), UsedName(!=,[Default]), UsedName(asInstanceOf,[Default]), UsedName(eq,[Default]), UsedName(equals,[Default]), UsedName($isInstanceOf,[Default]), UsedName(synchronized,[Default]), UsedName(ne,[Default]), UsedName(Niños,[Default]), UsedName(notifyAll,[Default]), UsedName(##,[Default]), UsedName(getClass,[Default]), UsedName(clone,[Default]), UsedName(Niños;init;,[Default]), UsedName(notify,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(Niños)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
+[0m[[0m[0mdebug[0m] [0m[0m        [0m
+[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
+[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0mNo classes were invalidated.[0m

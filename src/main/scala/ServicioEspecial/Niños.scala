@@ -1,5 +1,10 @@
 import ServicioEspecial._
 
-class ServicioEspecial{
+class Niños extends ServicioEspecial{
 	//Constructor
+	def this(id : String, caracteristica : String){
+		this();
+		_id = id;
+		_caracteristica = caracteristica;
+	}
 }
