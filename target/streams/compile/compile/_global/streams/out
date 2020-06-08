@@ -1,9 +1,7 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\juand\Documents\Proyecto-Final-POO\src\main\scala\Pasajero\Pasajero.scala:25:70: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : Unit[0m
-[0m[[0m[31merror[0m] [0m[0m required: Boolean[0m
-[0m[[0m[31merror[0m] [0m[0m    def comprarPasajes (cantidad : Int, cantidadM : Int) : Boolean = {[0m
-[0m[[0m[31merror[0m] [0m[0m                                                                     ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\juand\Documents\Proyecto-Final-POO\src\main\scala\Pasajero\Pasajero.scala:36:59: not found: type ServicioEspecial[0m
-[0m[[0m[31merror[0m] [0m[0m            var Servicio = instanciaServicio.asInstanceOf[ServicioEspecial][0m
-[0m[[0m[31merror[0m] [0m[0m                                                          ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\Vuelo\Vuelo.scala:19:80: identifier expected but ')' found.[0m
+[0m[[0m[31merror[0m] [0m[0m		avion : Avion, tripulacion : List[Tripulante], fecha : String, hora : String,) = {[0m
+[0m[[0m[31merror[0m] [0m[0m		                                                                             ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\Vuelo\Vuelo.scala:30:1: ':' expected but '}' found.[0m
+[0m[[0m[31merror[0m] [0m[0m}[0m
+[0m[[0m[31merror[0m] [0m[0m^[0m
 [0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
