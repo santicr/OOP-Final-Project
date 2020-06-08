@@ -2,7 +2,7 @@ package Pasaje
 import ServicioEspecial._
 
 class Pasaje{
-	//Atributos
+	//Atributos y metodos
 	var _id : String;
 	var _fecha : String;
 	var _hora : Double;
