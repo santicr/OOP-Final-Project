@@ -1,7 +1,5 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\Vuelo\Vuelo.scala:19:80: identifier expected but ')' found.[0m
-[0m[[0m[31merror[0m] [0m[0m		avion : Avion, tripulacion : List[Tripulante], fecha : String, hora : String,) = {[0m
-[0m[[0m[31merror[0m] [0m[0m		                                                                             ^[0m
-[0m[[0m[31merror[0m] [0m[0mC:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\Vuelo\Vuelo.scala:30:1: ':' expected but '}' found.[0m
-[0m[[0m[31merror[0m] [0m[0m}[0m
-[0m[[0m[31merror[0m] [0m[0m^[0m
-[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\Aeropuerto\Aeropuerto.scala:28:9: overriding method ProgramacionTripulantes in trait ModuloControlVuelos of type (idVuelo: String)Unit;[0m
+[0m[[0m[31merror[0m] [0m[0m method ProgramacionTripulantes has incompatible type[0m
+[0m[[0m[31merror[0m] [0m[0m    def ProgramacionTripulantes (idVuelo : String) : Boolean = {[0m
+[0m[[0m[31merror[0m] [0m[0m        ^[0m
+[0m[[0m[31merror[0m] [0m[0mone error found[0m

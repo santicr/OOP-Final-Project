@@ -8,9 +8,9 @@ import scala.util._
 
 trait ModuloControlVuelos{
 
-    def ProgramacionVuelos (origen : String, destino : String, hora : Double, fecha : String, avion : Avion) : Boolean
-    def ProgramacionTripulantes (idVuelo : String) : Boolean
-    def CancelarVuelos (vuelo : Vuelo) : Boolean
+    def ProgramacionVuelos (origen : String, destino : String, hora : String, fecha : String, avion : Avion) : Unit
+    def ProgramacionTripulantes (idVuelo : String) : Unit
+    def CancelarVuelos (vuelo : Vuelo) : Unit
     def CambiarAviones (idAvionNuevo : String, idAvionViejo : String) : Boolean
     def ProgramarAvion(idVuelo : String, avion : Avion) : Boolean
 

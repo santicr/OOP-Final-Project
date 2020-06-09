@@ -14,9 +14,8 @@ class Tripulante{
 
 
 	//Constructor
-	def this(id : String, nombre : String, correo : String){
+	def this(nombre : String, correo : String){
 		this();
-		_id = id;
 		_nombre = nombre;
 		_correo = correo;
 	}
