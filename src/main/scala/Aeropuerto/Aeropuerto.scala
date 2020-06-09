@@ -58,11 +58,28 @@ class Aeropuerto extends ModuloControlVuelos{
         this.vuelos = this.vuelos.filter(_ != vuelo)
 
     }
-    def CambiarAviones (idAvionNuevo : String, idAvionViejo : String) : Boolean = {
-        return true
+    def CambiarAviones (idAvionNuevo : String, idAvionViejo : String) : Unit = {
+        var avionnuevo : Avion = new Avion()
+        var avionviejo : Avion = new Avion()
+        for(a <- aviones){
+            if(a._id == idAvionNuevo){
+                avionnuevo = a
+            }else if(a._id == idAvionViejo){
+                avionviejo = a
+            }
+        }
+        for(v <- vuelos){
+            if(v._avion == avionviejo){
+                v._avion = avionnuevo
+            }
+        }
     }
-    def ProgramarAvion(idVuelo : String, avion : Avion) : Boolean = {
-        return true
+    def ProgramarAvion(idVuelo : String, avion : Avion) : Unit = {
+        for(v <- vuelos){
+            if(v._id == idVuelo){
+                v._avion = avion
+            }
+        }
     }
 
 

@@ -1,5 +1,11 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\Aeropuerto\Aeropuerto.scala:28:9: overriding method ProgramacionTripulantes in trait ModuloControlVuelos of type (idVuelo: String)Unit;[0m
-[0m[[0m[31merror[0m] [0m[0m method ProgramacionTripulantes has incompatible type[0m
-[0m[[0m[31merror[0m] [0m[0m    def ProgramacionTripulantes (idVuelo : String) : Boolean = {[0m
-[0m[[0m[31merror[0m] [0m[0m        ^[0m
-[0m[[0m[31merror[0m] [0m[0mone error found[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\Aeropuerto\Aeropuerto.scala:62:34: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Unit.type[0m
+[0m[[0m[31merror[0m] [0m[0m required: Avion.Avion[0m
+[0m[[0m[31merror[0m] [0m[0m        var avionnuevo : Avion = Unit[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\Aeropuerto\Aeropuerto.scala:63:34: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : Unit.type[0m
+[0m[[0m[31merror[0m] [0m[0m required: Avion.Avion[0m
+[0m[[0m[31merror[0m] [0m[0m        var avionviejo : Avion = Unit[0m
+[0m[[0m[31merror[0m] [0m[0m                                 ^[0m
+[0m[[0m[31merror[0m] [0m[0mtwo errors found[0m

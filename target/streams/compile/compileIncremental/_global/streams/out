@@ -1,61 +1,36 @@
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
 [0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	added: Set(C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\Aeropuerto\Aeropuerto.scala, C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\Aeropuerto\ModuloControlVuelos.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\Vuelo\Vuelo.scala, C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\Tripulante\Tripulante.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\Aeropuerto\Aeropuerto.scala, C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\Aeropuerto\ModuloControlVuelos.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(Vuelo.Vuelo, Tripulante.Tripulante)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(Aeropuerto.Aeropuerto, Aeropuerto.ModuloControlVuelos)[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(Vuelo.Vuelo, Tripulante.Tripulante)[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\Aeropuerto\Aeropuerto.scala, C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\Aeropuerto\ModuloControlVuelos.scala, C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\Vuelo\Vuelo.scala, C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\Tripulante\Tripulante.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Vuelo.Vuelo, Tripulante.Tripulante[0m
-[0m[[0m[0minfo[0m] [0m[0mCompiling 4 Scala sources to C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\target\scala-2.12\classes ...[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(Aeropuerto.Aeropuerto, Aeropuerto.ModuloControlVuelos)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\Aeropuerto\Aeropuerto.scala, C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\Aeropuerto\ModuloControlVuelos.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Aeropuerto.Aeropuerto, Aeropuerto.ModuloControlVuelos[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 2 Scala sources to C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\target\scala-2.12\classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.3.5:compile for Scala 2.12.10[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.3.5:compile for Scala 2.12.10[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 57ecb90f for Scala compiler version 2.12.10[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 85debb3 for Scala compiler version 2.12.10[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	C:\Program Files\Java\jre1.8.0_241\lib\resources.jar;C:\Program Files\Java\jre1.8.0_241\lib\rt.jar;C:\Program Files\Java\jre1.8.0_241\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_241\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_241\lib\jce.jar;C:\Program Files\Java\jre1.8.0_241\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_241\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_241\classes;C:\Users\ajbss\.sbt\boot\scala-2.12.10\lib\scala-library.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\target\scala-2.12\classes[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.4253095 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.4974896 s[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone compiling.[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Vuelo.Vuelo...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Vuelo.Vuelo[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Vuelo.Vuelo)[0m
-[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of Pasajero.Pasajero: Set(UsedName(generarId,[Default]))[0m
-[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of Aeropuerto.ModuloControlVuelos. This dependency is not being considered for invalidation.[0m
-[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of Pasaje.Pasaje. This dependency is not being considered for invalidation.[0m
-[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of Pasajero.ModuloPasajero. This dependency is not being considered for invalidation.[0m
-[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of Aeropuerto.Aeropuerto: Set(UsedName(Vuelo;Vuelo;init;,[Default]))[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Vuelo.Vuelo,ModifiedNames(changes = UsedName(Vuelo;Vuelo;init;,[Default]), UsedName(generarId,[Default]))) invalidates 3 classes due to The Vuelo.Vuelo has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(Vuelo;Vuelo;init;,[Default]), UsedName(generarId,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(Vuelo.Vuelo)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by member reference: Set(Pasajero.Pasajero, Aeropuerto.Aeropuerto)[0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Tripulante.Tripulante...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Tripulante.Tripulante[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Tripulante.Tripulante)[0m
-[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of Aeropuerto.Aeropuerto: Set(UsedName(Tripulante;Tripulante;init;,[Default]))[0m
-[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of Vuelo.Vuelo: Set(UsedName(generarId,[Default]))[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Tripulante.Tripulante,ModifiedNames(changes = UsedName(Tripulante;Tripulante;init;,[Default]), UsedName(generarId,[Default]))) invalidates 3 classes due to The Tripulante.Tripulante has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(Tripulante;Tripulante;init;,[Default]), UsedName(generarId,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(Tripulante.Tripulante)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by member reference: Set(Aeropuerto.Aeropuerto, Vuelo.Vuelo)[0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Aeropuerto.Aeropuerto...[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Aeropuerto.Aeropuerto[0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Aeropuerto.Aeropuerto)[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Aeropuerto.Aeropuerto,ModifiedNames(changes = UsedName(equals,[Default]), UsedName(hashCode,[Default]), UsedName(synchronized,[Default]), UsedName(ProgramacionVuelos,[Default]), UsedName(getClass,[Default]), UsedName(pasajeros,[Default]), UsedName(notify,[Default]), UsedName(wait,[Default]), UsedName(notifyAll,[Default]), UsedName(ProgramarAvion,[Default]), UsedName(ne,[Default]), UsedName($isInstanceOf,[Default]), UsedName($asInstanceOf,[Default]), UsedName(Aeropuerto,[Default]), UsedName(CambiarAviones,[Default]), UsedName(##,[Default]), UsedName(toString,[Default]), UsedName(clone,[Default]), UsedName(asInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName(CancelarVuelos,[Default]), UsedName(==,[Default]), UsedName(ProgramacionTripulantes,[Default]), UsedName(Aeropuerto;Aeropuerto;init;,[Default]), UsedName(vuelos,[Default]), UsedName(eq,[Default]), UsedName(isInstanceOf,[Default]), UsedName(aviones,[Default]), UsedName(!=,[Default]))) invalidates 1 classes due to The Aeropuerto.Aeropuerto has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(equals,[Default]), UsedName(hashCode,[Default]), UsedName(synchronized,[Default]), UsedName(ProgramacionVuelos,[Default]), UsedName(getClass,[Default]), UsedName(pasajeros,[Default]), UsedName(notify,[Default]), UsedName(wait,[Default]), UsedName(notifyAll,[Default]), UsedName(ProgramarAvion,[Default]), UsedName(ne,[Default]), UsedName($isInstanceOf,[Default]), UsedName($asInstanceOf,[Default]), UsedName(Aeropuerto,[Default]), UsedName(CambiarAviones,[Default]), UsedName(##,[Default]), UsedName(toString,[Default]), UsedName(clone,[Default]), UsedName(asInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName(CancelarVuelos,[Default]), UsedName(==,[Default]), UsedName(ProgramacionTripulantes,[Default]), UsedName(Aeropuerto;Aeropuerto;init;,[Default]), UsedName(vuelos,[Default]), UsedName(eq,[Default]), UsedName(isInstanceOf,[Default]), UsedName(aviones,[Default]), UsedName(!=,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Aeropuerto.Aeropuerto,ModifiedNames(changes = UsedName(ProgramarAvion,[Default]), UsedName(CambiarAviones,[Default]))) invalidates 1 classes due to The Aeropuerto.Aeropuerto has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(ProgramarAvion,[Default]), UsedName(CambiarAviones,[Default]).[0m
 [0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(Aeropuerto.Aeropuerto)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	> [0m
 [0m[[0m[0mdebug[0m] [0m[0m	> [0m
@@ -64,32 +39,13 @@
 [0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Aeropuerto.ModuloControlVuelos[0m
 [0m[[0m[0mdebug[0m] [0m[0mIncluding Aeropuerto.Aeropuerto by Aeropuerto.ModuloControlVuelos[0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Aeropuerto.Aeropuerto, Aeropuerto.ModuloControlVuelos)[0m
-[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of Aeropuerto.Aeropuerto: Set(UsedName(ModuloControlVuelos,[Default]), UsedName(ProgramarAvion,[Default]), UsedName(CambiarAviones,[Default]), UsedName(==,[Default]), UsedName(!=,[Default]))[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Aeropuerto.ModuloControlVuelos,ModifiedNames(changes = UsedName(equals,[Default]), UsedName(hashCode,[Default]), UsedName(synchronized,[Default]), UsedName(ModuloControlVuelos,[Default]), UsedName(ProgramacionVuelos,[Default]), UsedName(getClass,[Default]), UsedName(notify,[Default]), UsedName(wait,[Default]), UsedName(notifyAll,[Default]), UsedName(ProgramarAvion,[Default]), UsedName(ne,[Default]), UsedName($isInstanceOf,[Default]), UsedName($asInstanceOf,[Default]), UsedName(CambiarAviones,[Default]), UsedName(##,[Default]), UsedName(toString,[Default]), UsedName(clone,[Default]), UsedName(asInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName(CancelarVuelos,[Default]), UsedName(==,[Default]), UsedName(ProgramacionTripulantes,[Default]), UsedName(eq,[Default]), UsedName(isInstanceOf,[Default]), UsedName(!=,[Default]))) invalidates 2 classes due to The Aeropuerto.ModuloControlVuelos has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(equals,[Default]), UsedName(hashCode,[Default]), UsedName(synchronized,[Default]), UsedName(ModuloControlVuelos,[Default]), UsedName(ProgramacionVuelos,[Default]), UsedName(getClass,[Default]), UsedName(notify,[Default]), UsedName(wait,[Default]), UsedName(notifyAll,[Default]), UsedName(ProgramarAvion,[Default]), UsedName(ne,[Default]), UsedName($isInstanceOf,[Default]), UsedName($asInstanceOf,[Default]), UsedName(CambiarAviones,[Default]), UsedName(##,[Default]), UsedName(toString,[Default]), UsedName(clone,[Default]), UsedName(asInstanceOf,[Default]), UsedName(finalize,[Default]), UsedName(CancelarVuelos,[Default]), UsedName(==,[Default]), UsedName(ProgramacionTripulantes,[Default]), UsedName(eq,[Default]), UsedName(isInstanceOf,[Default]), UsedName(!=,[Default]).[0m
+[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of Aeropuerto.Aeropuerto. This dependency is not being considered for invalidation.[0m
+[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Aeropuerto.ModuloControlVuelos,ModifiedNames(changes = UsedName(ProgramarAvion,[Default]), UsedName(CambiarAviones,[Default]))) invalidates 2 classes due to The Aeropuerto.ModuloControlVuelos has the following regular definitions changed:[0m
+[0m[[0m[0mdebug[0m] [0m[0m	UsedName(ProgramarAvion,[Default]), UsedName(CambiarAviones,[Default]).[0m
 [0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(Aeropuerto.Aeropuerto, Aeropuerto.ModuloControlVuelos)[0m
 [0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by member reference: Set(Aeropuerto.Aeropuerto)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	> [0m
 [0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Set(Pasajero.Pasajero)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Pasajero.Pasajero[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding Aeropuerto.Aeropuerto by Pasajero.Pasajero[0m
-[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Set(Aeropuerto.Aeropuerto)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated classes: Pasajero.Pasajero, Aeropuerto.Aeropuerto[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Pasajero.Pasajero, Aeropuerto.Aeropuerto[0m
-[0m[[0m[0minfo[0m] [0m[0mCompiling 2 Scala sources to C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\target\scala-2.12\classes ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.3.5:compile for Scala 2.12.10[0m
-[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.3.5:compile for Scala 2.12.10[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 227b5a83 for Scala compiler version 2.12.10[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	C:\Program Files\Java\jre1.8.0_241\lib\resources.jar;C:\Program Files\Java\jre1.8.0_241\lib\rt.jar;C:\Program Files\Java\jre1.8.0_241\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_241\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_241\lib\jce.jar;C:\Program Files\Java\jre1.8.0_241\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_241\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_241\classes;C:\Users\ajbss\.sbt\boot\scala-2.12.10\lib\scala-library.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\target\scala-2.12\classes[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.312848 s[0m
-[0m[[0m[0mdebug[0m] [0m[0mDone compiling.[0m
 [0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: [0m
