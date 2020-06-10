@@ -20,7 +20,7 @@ object main extends App{
     var tripulante1 : Tripulante = new Tripulante("Jorge", "ope@av.com")
     var tripulante2 : Tripulante = new Tripulante("Eduardo", "ee@av.com")
 
-    var pasajero1 : Pasajero = new Pasajero("Pepe", "pp@go.com")
+    var pasajero1 : Pasajero = new Pasajero("123", "Pepe", "pp@go.com")
 
     println("Programando vuelo para Cali - Bogota a las 8:55 el 12/22/2020")
     aeropuerto.ProgramacionVuelos("Cali", "Bogota", "0855", "12/12/2020", avion1)

@@ -9,24 +9,17 @@ import Vuelo._
 
 class Pasajero extends ModuloPasajero{
 	//Atributos y metodos
-	var _id : String = generarId()
+	var _id : String = _
     var _nombre : String = _ 
     var _correo : String = _
     var _pasajes : List[Pasaje] = List()
 
-    def this( nombre : String, correo : String) = {
+    def this(id : String, nombre : String, correo : String) = {
 		this();
+        _id = id
 		_nombre = nombre
         _correo = correo
 	}
-
-
-
-    
-    def generarId() : String = {
-		var codigo : String = Random.alphanumeric.take(7).mkString("")
-		return codigo
-	}  
 
     def verificarDocumentos () : Boolean = {
         println("Verificando Documentos...")
@@ -75,7 +68,7 @@ class Pasajero extends ModuloPasajero{
 
             println("Qué Servicio Especial desea crear? Silla de Rueda, Mascota o Niños");
             var opcionServicio : String = StdIn.readLine()
-            var claseServicio = Class.forName("ServicioEspecial." + opcionServicio)
+            var claseServicio = Class.forName(opcionServicio)
             var instanciaServicio = claseServicio.newInstance();
             var servicio = instanciaServicio.asInstanceOf[ServicioEspecial]
 

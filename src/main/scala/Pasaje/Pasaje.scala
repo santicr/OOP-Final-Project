@@ -18,7 +18,7 @@ class Pasaje{
 	def generarId() : String = {
 		var codigo : String = Random.alphanumeric.take(7).mkString("")
 		return codigo
-	}  
+	} 
 
 	//Constructor
 	def this(fecha : String, hora : String, vuelo : Vuelo, 

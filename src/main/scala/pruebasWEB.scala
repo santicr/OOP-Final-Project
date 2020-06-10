@@ -18,7 +18,7 @@ import akka.stream.ActorMaterializer
 object Server extends App with Directives with JsonSupport{
 	var aero = new Aeropuerto();
 	var tP = new TipoPasaje("123", "gold")
-	var p1 = new Pasajero("Roberto Gomez", "elchavo@hotmail.com");
+	var p1 = new Pasajero("98", "Roberto Gomez", "elchavo@hotmail.com");
 	var avion1 = new Avion(true);
 	var vuelo = new Vuelo("Cali", "Bogota", List(), avion1, List(), "0906", "1800");
 	var avion2 = new Avion(true);
@@ -31,34 +31,44 @@ object Server extends App with Directives with JsonSupport{
     implicit val materializer: ActorMaterializer = ActorMaterializer()
 
     val routes: Route =
-        path("aeronalgas" / Segment / Segment / IntNumber) { (idAvion1, idAvion2, n) =>
+        path("aero") { 
         	get{
-        		complete(avion1._id + " " + avion2._id + " " + n.toString);
+        		complete(avion1._id + " " + avion2._id + " ");
         	}
         } ~
-        path("aeronalgasVUELOS" / Segment / Segment){ (idAvion1, idAvion2) =>
+        path("aeroVUELOS" / Segment / Segment){ (idAvion1, idAvion2) =>
         	aero.CambiarAviones(idAvion1, idAvion2)
         	post{
         		complete("Avion " + idAvion1 + " cambiado por el avion " + idAvion2);
         	}
         } ~
-        path("aeronalgasVUELOS" / Segment){ (idAvion) =>
+        path("aeroVUELOS" / Segment){ (idAvion) =>
         	aero.ProgramacionTripulantes(idAvion)
         	get{
         		complete("Los tripulantes se han programado exitosamente al avion con id " + idAvion);
         	}
         } ~
-        path("aeronalgasINFANTIL" / Segment){ (idPasaje) =>
+        path("aeroINFANTIL" / Segment){ (idPasaje) =>
         	p1.pedirServicioEspecial(idPasaje);
         	get{
         		complete("Se ha añadido un servicio especial al pasaje con id " + idPasaje);
         	}
         } ~
-        path("aeronalgasVerifica"){ 
+        path("aeroINFANTIL"){
+            get{
+                complete(pasaje1._id);
+            }
+        } ~
+        path("aeroVerifica"){ 
         	p1.verificarDocumentos();
         	post{
         		complete("Se han verificado los documentos del pasajero con id " + p1._id);
         	}
+        } ~
+        path("aeroV"){ 
+            post{
+                complete(p1._id)
+            }
         }
 
 
