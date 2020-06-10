@@ -1,4 +1,6 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\pruebasWEB.scala:9:48: not found: type JsonSupport[0m
-[0m[[0m[31merror[0m] [0m[0mobject Server extends App with Directives with JsonSupport{[0m
-[0m[[0m[31merror[0m] [0m[0m                                               ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\main.scala:30:53: type mismatch;[0m
+[0m[[0m[31merror[0m] [0m[0m found   : String[0m
+[0m[[0m[31merror[0m] [0m[0m required: Vuelo.Vuelo[0m
+[0m[[0m[31merror[0m] [0m[0m    pasajero1.comprarPasajes(aeropuerto.vuelos.head._id)[0m
+[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m

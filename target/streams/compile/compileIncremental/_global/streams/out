@@ -2,96 +2,29 @@
 [0m[[0m[0mdebug[0m] [0m[0mInitial source changes: [0m
 [0m[[0m[0mdebug[0m] [0m[0m	removed:Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	added: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\main.scala, C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\Pasajero\Pasajero.scala, C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\Avion\Avion.scala, C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\Pasaje\Pasaje.scala)[0m
+[0m[[0m[0mdebug[0m] [0m[0m	modified: Set(C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\Pasajero\Pasajero.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0mInvalidated products: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mExternal API changes: API Changes: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0mModified binary dependencies: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(main, Pasajero.Pasajero, Avion.Avion, Pasaje.Pasaje)[0m
+[0m[[0m[0mdebug[0m] [0m[0mInitial directly invalidated classes: Set(Pasajero.Pasajero)[0m
 [0m[[0m[0mdebug[0m] [0m[0m[0m
 [0m[[0m[0mdebug[0m] [0m[0mSources indirectly invalidated by:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	product: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	binary dep: Set()[0m
 [0m[[0m[0mdebug[0m] [0m[0m	external source: Set()[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(main, Pasajero.Pasajero, Avion.Avion, Pasaje.Pasaje)[0m
-[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\main.scala, C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\Pasajero\Pasajero.scala, C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\Avion\Avion.scala, C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\Pasaje\Pasaje.scala)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: main, Pasajero.Pasajero, Avion.Avion, Pasaje.Pasaje[0m
-[0m[[0m[0minfo[0m] [0m[0mCompiling 4 Scala sources to C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\target\scala-2.12\classes ...[0m
-[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.3.5:compile for Scala 2.12.8[0m
-[0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.3.5:compile for Scala 2.12.8[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 1ed11f for Scala compiler version 2.12.8[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	C:\Program Files\Java\jre1.8.0_241\lib\resources.jar;C:\Program Files\Java\jre1.8.0_241\lib\rt.jar;C:\Program Files\Java\jre1.8.0_241\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_241\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_241\lib\jce.jar;C:\Program Files\Java\jre1.8.0_241\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_241\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_241\classes;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.8\scala-library-2.12.8.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
-[0m[[0m[0mdebug[0m] [0m[0m	C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\target\scala-2.12\classes;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-actor_2.12\2.5.25\akka-actor_2.12-2.5.25.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-stream_2.12\2.5.25\akka-stream_2.12-2.5.25.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-http_2.12\10.1.9\akka-http_2.12-10.1.9.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-json_2.12\2.7.3\play-json_2.12-2.7.3.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-http-spray-json_2.12\10.1.9\akka-http-spray-json_2.12-10.1.9.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\config\1.3.3\config-1.3.3.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-java8-compat_2.12\0.8.0\scala-java8-compat_2.12-0.8.0.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-protobuf_2.12\2.5.25\akka-protobuf_2.12-2.5.25.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\reactivestreams\reactive-streams\1.0.2\reactive-streams-1.0.2.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\ssl-config-core_2.12\0.3.8\ssl-config-core_2.12-0.3.8.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-http-core_2.12\10.1.9\akka-http-core_2.12-10.1.9.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-functional_2.12\2.7.3\play-functional_2.12-2.7.3.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.12.8\scala-reflect-2.12.8.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\typelevel\macro-compat_2.12\1.1.1\macro-compat_2.12-1.1.1.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\joda-time\joda-time\2.10.1\joda-time-2.10.1.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-annotations\2.9.8\jackson-annotations-2.9.8.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.9.8\jackson-datatype-jdk8-2.9.8.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.9.8\jackson-datatype-jsr310-2.9.8.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\spray\spray-json_2.12\1.3.5\spray-json_2.12-1.3.5.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.12\1.1.2\scala-parser-combinators_2.12-1.1.2.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-parsing_2.12\10.1.9\akka-parsing_2.12-10.1.9.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 8.5863673 s[0m
-[0m[[0m[0mdebug[0m] [0m[0mDone compiling.[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from main...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: main[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(main)[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(main,ModifiedNames(changes = UsedName(aeropuerto,[Default]))) invalidates 1 classes due to The main has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(aeropuerto,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(main)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Pasajero.Pasajero...[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated classes: Set(Pasajero.Pasajero)[0m
+[0m[[0m[0mdebug[0m] [0m[0mAll initially invalidated sources:Set(C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\Pasajero\Pasajero.scala)[0m
 [0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Pasajero.Pasajero[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Pasajero.Pasajero)[0m
-[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of Aeropuerto.Aeropuerto. This dependency is not being considered for invalidation.[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Pasajero.Pasajero,ModifiedNames(changes = UsedName(generarId,[Default]), UsedName(Pasajero;Pasajero;init;,[Default]))) invalidates 1 classes due to The Pasajero.Pasajero has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(generarId,[Default]), UsedName(Pasajero;Pasajero;init;,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(Pasajero.Pasajero)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Avion.Avion...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Avion.Avion[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Avion.Avion)[0m
-[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of Aeropuerto.ModuloControlVuelos. This dependency is not being considered for invalidation.[0m
-[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of Vuelo.Vuelo: Set(UsedName(generarId,[Default]))[0m
-[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of Aeropuerto.Aeropuerto: Set(UsedName(Avion;Avion;init;,[Default]))[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Avion.Avion,ModifiedNames(changes = UsedName(Avion;Avion;init;,[Default]), UsedName(generarId,[Default]))) invalidates 3 classes due to The Avion.Avion has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(Avion;Avion;init;,[Default]), UsedName(generarId,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(Avion.Avion)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by member reference: Set(Vuelo.Vuelo, Aeropuerto.Aeropuerto)[0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidating (transitively) by inheritance from Pasaje.Pasaje...[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Pasaje.Pasaje[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated by transitive inheritance dependency: Set(Pasaje.Pasaje)[0m
-[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of Pasajero.Pasajero: Set(UsedName(Pasaje;Pasaje;init;,[Default]), UsedName(generarId,[Default]))[0m
-[0m[[0m[0mdebug[0m] [0m[0mThe following modified names cause invalidation of Vuelo.Vuelo: Set(UsedName(generarId,[Default]))[0m
-[0m[[0m[0mdebug[0m] [0m[0mNone of the modified names appears in source file of Aeropuerto.Aeropuerto. This dependency is not being considered for invalidation.[0m
-[0m[[0m[0mdebug[0m] [0m[0mChange NamesChange(Pasaje.Pasaje,ModifiedNames(changes = UsedName(Pasaje;Pasaje;init;,[Default]), UsedName(generarId,[Default]))) invalidates 3 classes due to The Pasaje.Pasaje has the following regular definitions changed:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	UsedName(Pasaje;Pasaje;init;,[Default]), UsedName(generarId,[Default]).[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by transitive inheritance: Set(Pasaje.Pasaje)[0m
-[0m[[0m[0mdebug[0m] [0m[0m	> [0m
-[0m[[0m[0mdebug[0m] [0m[0m	> by member reference: Set(Pasajero.Pasajero, Vuelo.Vuelo)[0m
-[0m[[0m[0mdebug[0m] [0m[0m        [0m
-[0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Set(Vuelo.Vuelo, Aeropuerto.Aeropuerto)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Vuelo.Vuelo, Aeropuerto.Aeropuerto[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding Pasajero.Pasajero by Vuelo.Vuelo[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding Aeropuerto.Aeropuerto by Pasajero.Pasajero[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding main by Aeropuerto.Aeropuerto[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding Aeropuerto.ModuloControlVuelos by Vuelo.Vuelo[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding Pasaje.Pasaje by Vuelo.Vuelo[0m
-[0m[[0m[0mdebug[0m] [0m[0mIncluding Pasajero.ModuloPasajero by Vuelo.Vuelo[0m
-[0m[[0m[0mdebug[0m] [0m[0mPreviously invalidated, but (transitively) depend on new invalidations:[0m
-[0m[[0m[0mdebug[0m] [0m[0m	Set(Pasajero.Pasajero, main, Pasaje.Pasaje)[0m
-[0m[[0m[0mdebug[0m] [0m[0mInvalidated classes: Pasajero.Pasajero, main, Pasaje.Pasaje, Vuelo.Vuelo, Aeropuerto.Aeropuerto[0m
-[0m[[0m[0mdebug[0m] [0m[0mInitial set of included nodes: Pasajero.Pasajero, main, Pasaje.Pasaje, Vuelo.Vuelo, Aeropuerto.Aeropuerto[0m
-[0m[[0m[0minfo[0m] [0m[0mCompiling 5 Scala sources to C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\target\scala-2.12\classes ...[0m
+[0m[[0m[0minfo[0m] [0m[0mCompiling 1 Scala source to C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\target\scala-2.12\classes ...[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.3.5:compile for Scala 2.12.8[0m
 [0m[[0m[0mdebug[0m] [0m[0mGetting org.scala-sbt:compiler-bridge_2.12:1.3.5:compile for Scala 2.12.8[0m
-[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 2f04ac37 for Scala compiler version 2.12.8[0m
+[0m[[0m[0mdebug[0m] [0m[0m[zinc] Running cached compiler 7785bce8 for Scala compiler version 2.12.8[0m
 [0m[[0m[0mdebug[0m] [0m[0m[zinc] The Scala compiler is invoked with:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-bootclasspath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	C:\Program Files\Java\jre1.8.0_241\lib\resources.jar;C:\Program Files\Java\jre1.8.0_241\lib\rt.jar;C:\Program Files\Java\jre1.8.0_241\lib\sunrsasign.jar;C:\Program Files\Java\jre1.8.0_241\lib\jsse.jar;C:\Program Files\Java\jre1.8.0_241\lib\jce.jar;C:\Program Files\Java\jre1.8.0_241\lib\charsets.jar;C:\Program Files\Java\jre1.8.0_241\lib\jfr.jar;C:\Program Files\Java\jre1.8.0_241\classes;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-library\2.12.8\scala-library-2.12.8.jar[0m
 [0m[[0m[0mdebug[0m] [0m[0m	-classpath[0m
 [0m[[0m[0mdebug[0m] [0m[0m	C:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\target\scala-2.12\classes;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-actor_2.12\2.5.25\akka-actor_2.12-2.5.25.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-stream_2.12\2.5.25\akka-stream_2.12-2.5.25.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-http_2.12\10.1.9\akka-http_2.12-10.1.9.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-json_2.12\2.7.3\play-json_2.12-2.7.3.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-http-spray-json_2.12\10.1.9\akka-http-spray-json_2.12-10.1.9.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\config\1.3.3\config-1.3.3.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-java8-compat_2.12\0.8.0\scala-java8-compat_2.12-0.8.0.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-protobuf_2.12\2.5.25\akka-protobuf_2.12-2.5.25.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\reactivestreams\reactive-streams\1.0.2\reactive-streams-1.0.2.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\ssl-config-core_2.12\0.3.8\ssl-config-core_2.12-0.3.8.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-http-core_2.12\10.1.9\akka-http-core_2.12-10.1.9.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\play\play-functional_2.12\2.7.3\play-functional_2.12-2.7.3.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\scala-reflect\2.12.8\scala-reflect-2.12.8.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\typelevel\macro-compat_2.12\1.1.1\macro-compat_2.12-1.1.1.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\joda-time\joda-time\2.10.1\joda-time-2.10.1.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-core\2.9.8\jackson-core-2.9.8.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-annotations\2.9.8\jackson-annotations-2.9.8.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\core\jackson-databind\2.9.8\jackson-databind-2.9.8.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jdk8\2.9.8\jackson-datatype-jdk8-2.9.8.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\fasterxml\jackson\datatype\jackson-datatype-jsr310\2.9.8\jackson-datatype-jsr310-2.9.8.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\io\spray\spray-json_2.12\1.3.5\spray-json_2.12-1.3.5.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\org\scala-lang\modules\scala-parser-combinators_2.12\1.1.2\scala-parser-combinators_2.12-1.1.2.jar;C:\Users\ajbss\AppData\Local\Coursier\cache\v1\https\repo1.maven.org\maven2\com\typesafe\akka\akka-parsing_2.12\10.1.9\akka-parsing_2.12-10.1.9.jar[0m
-[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 2.2716197 s[0m
+[0m[[0m[0mdebug[0m] [0m[0mScala compilation took 0.3432225 s[0m
 [0m[[0m[0mdebug[0m] [0m[0mDone compiling.[0m
 [0m[[0m[0mdebug[0m] [0m[0mNew invalidations:[0m
 [0m[[0m[0mdebug[0m] [0m[0m	Set()[0m

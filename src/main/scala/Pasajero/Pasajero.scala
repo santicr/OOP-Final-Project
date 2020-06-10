@@ -52,7 +52,7 @@ class Pasajero extends ModuloPasajero{
             println(" Cuantas maletas desea? ");
             var maletas : Int = StdIn.readInt()
 
-            println(" Qué tipo de pasaje desea? Silver, Gold o Diamond ");
+            println(" Que tipo de pasaje desea? Silver, Gold o Diamond ");
             var opcionPasaje : String = StdIn.readLine()
             var clasePasaje = Class.forName("TipoPasaje." + opcionPasaje)
             var instanciaPasaje = clasePasaje.newInstance();
@@ -62,6 +62,9 @@ class Pasajero extends ModuloPasajero{
             var pasaje = new Pasaje( fecha, hora, vuelo, 
             List(), maletas, tipoPasaje)
 
+            vuelo._pasajes = pasaje :: vuelo._pasajes
+
+            this._pasajes = pasaje :: this._pasajes
 
         }
 
