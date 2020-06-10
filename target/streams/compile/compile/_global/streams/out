@@ -1,6 +1,4 @@
-[0m[[0m[31merror[0m] [0m[0mC:\Users\ajbss\OneDrive\OneDrive - Pontificia Universidad Javeriana Cali\U\POO\Proyecto-Final-POO\src\main\scala\main.scala:30:53: type mismatch;[0m
-[0m[[0m[31merror[0m] [0m[0m found   : String[0m
-[0m[[0m[31merror[0m] [0m[0m required: Vuelo.Vuelo[0m
-[0m[[0m[31merror[0m] [0m[0m    pasajero1.comprarPasajes(aeropuerto.vuelos.head._id)[0m
-[0m[[0m[31merror[0m] [0m[0m                                                    ^[0m
+[0m[[0m[31merror[0m] [0m[0mC:\Users\juand\Documents\Proyecto-Final-POO\src\main\scala\pruebasWEB.scala:60:81: value id is not a member of Pasajero.Pasajero[0m
+[0m[[0m[31merror[0m] [0m[0m        		complete("Se han verificado los documentos del pasajero con id " + p1.id);[0m
+[0m[[0m[31merror[0m] [0m[0m        		                                                                      ^[0m
 [0m[[0m[31merror[0m] [0m[0mone error found[0m
