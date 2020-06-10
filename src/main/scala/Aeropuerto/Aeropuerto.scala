@@ -42,7 +42,7 @@ class Aeropuerto extends ModuloControlVuelos{
 
                     var tripu : Tripulante = new Tripulante(nombre, correo)
 
-
+                    v._tripulacion = tripu :: v._tripulacion
 
                     numTripu = numTripu - 1
 

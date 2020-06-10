@@ -54,7 +54,7 @@ class Pasajero extends ModuloPasajero{
 
             println(" Que tipo de pasaje desea? Silver, Gold o Diamond ");
             var opcionPasaje : String = StdIn.readLine()
-            var clasePasaje = Class.forName("TipoPasaje." + opcionPasaje)
+            var clasePasaje = Class.forName(opcionPasaje)
             var instanciaPasaje = clasePasaje.newInstance();
             var tipoPasaje = instanciaPasaje.asInstanceOf[TipoPasaje]
   
@@ -75,7 +75,7 @@ class Pasajero extends ModuloPasajero{
 
             println("Qué Servicio Especial desea crear? Silla de Rueda, Mascota o Niños");
             var opcionServicio : String = StdIn.readLine()
-            var claseServicio = Class.forName("ServicioEspecial." + opcionServicio)
+            var claseServicio = Class.forName(opcionServicio)
             var instanciaServicio = claseServicio.newInstance();
             var servicio = instanciaServicio.asInstanceOf[ServicioEspecial]
 
