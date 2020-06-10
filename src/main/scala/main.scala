@@ -8,11 +8,4 @@ import Aeropuerto._
 
 object main extends App{
 	
-
-
-
-
-
-
-
 }
